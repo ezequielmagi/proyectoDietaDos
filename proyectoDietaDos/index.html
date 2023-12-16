@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de Opciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #resultado {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selector de Opciones</h1>
+
+    <label for="opciones">Selecciona una opción:</label>
+    <select id="opciones" onchange="mostrarOpcionSeleccionada()">
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+        <option value="opcion4">Opción 4</option>
+        <option value="opcion5">Opción 5</option>
+    </select>
+
+    <div id="resultado"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
