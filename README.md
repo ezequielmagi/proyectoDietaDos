@@ -1,11 +1,3 @@
-
-# Selector con JS
-
-Este pequeño repositorio sirve para mi futuro yo cuando necesite crear una lista desplegable de opciones con HTML y JS.
-
-
-
-
 # Selector con JS
 
 Este pequeño repositorio sirve para mi futuro yo cuando necesite crear una lista desplegable de opciones con HTML y JS.
